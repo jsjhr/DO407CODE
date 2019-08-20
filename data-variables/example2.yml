@@ -1,0 +1,7 @@
+---
+- name: Test Custom Facts
+  hosts: servera.lab.example.com
+  tasks:
+    - name: Print number days of reboot {{ ansible_facts['hostname'] }}
+      debug:
+        var: "{{ ansible_facts.ansible_local.custom.parametros.rebootdays }}"

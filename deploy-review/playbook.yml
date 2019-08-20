@@ -1,0 +1,11 @@
+---
+- name:
+  hosts: all
+  tasks:
+    - name: Test task 1
+      yum:
+        name: http
+        state: present
+
+    - name: Test task 2
+      yum: 
