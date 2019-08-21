@@ -1,0 +1,290 @@
+Nov 29 13:11:45 jegui polkitd[1570]: Loading rules from directory /etc/polkit-1/rules.d
+Nov 29 13:11:45 jegui polkitd[1570]: Loading rules from directory /usr/share/polkit-1/rules.d
+Nov 29 13:11:45 jegui polkitd[1570]: Finished loading, compiling and executing 2 rules
+Nov 29 13:11:45 jegui polkitd[1570]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Nov 29 13:11:48 jegui useradd[3072]: new group: name=student, GID=1000
+Nov 29 13:11:48 jegui useradd[3072]: new user: name=student, UID=1000, GID=1000, home=/home/student, shell=/bin/bash
+Nov 29 13:11:48 jegui useradd[3072]: add 'student' to group 'wheel'
+Nov 29 13:11:48 jegui useradd[3072]: add 'student' to shadow group 'wheel'
+Nov 29 13:11:48 jegui sshd[3174]: Server listening on 0.0.0.0 port 22.
+Nov 29 13:11:48 jegui sshd[3174]: Server listening on :: port 22.
+Nov 29 13:11:49 jegui sshd[3174]: Received signal 15; terminating.
+Nov 29 13:11:49 jegui sshd[3238]: Server listening on 0.0.0.0 port 22.
+Nov 29 13:11:49 jegui sshd[3238]: Server listening on :: port 22.
+Nov 29 13:12:43 jegui groupadd[12274]: group added to /etc/group: name=abrt, GID=173
+Nov 29 13:12:43 jegui groupadd[12274]: group added to /etc/gshadow: name=abrt
+Nov 29 13:12:43 jegui groupadd[12274]: new group: name=abrt, GID=173
+Nov 29 13:12:43 jegui useradd[12279]: new user: name=abrt, UID=173, GID=173, home=/etc/abrt, shell=/sbin/nologin
+Nov 29 13:12:47 jegui groupadd[12417]: group added to /etc/group: name=libstoragemgmt, GID=994
+Nov 29 13:12:47 jegui groupadd[12417]: group added to /etc/gshadow: name=libstoragemgmt
+Nov 29 13:12:47 jegui groupadd[12417]: new group: name=libstoragemgmt, GID=994
+Nov 29 13:12:47 jegui useradd[12422]: new user: name=libstoragemgmt, UID=997, GID=994, home=/var/run/lsm, shell=/sbin/nologin
+Nov 29 13:12:49 jegui groupadd[12483]: group added to /etc/group: name=stapusr, GID=156
+Nov 29 13:12:49 jegui groupadd[12483]: group added to /etc/gshadow: name=stapusr
+Nov 29 13:12:49 jegui groupadd[12483]: new group: name=stapusr, GID=156
+Nov 29 13:12:49 jegui groupadd[12488]: group added to /etc/group: name=stapsys, GID=157
+Nov 29 13:12:49 jegui groupadd[12488]: group added to /etc/gshadow: name=stapsys
+Nov 29 13:12:49 jegui groupadd[12488]: new group: name=stapsys, GID=157
+Nov 29 13:12:49 jegui groupadd[12493]: group added to /etc/group: name=stapdev, GID=158
+Nov 29 13:12:49 jegui groupadd[12493]: group added to /etc/gshadow: name=stapdev
+Nov 29 13:12:49 jegui groupadd[12493]: new group: name=stapdev, GID=158
+Nov 29 13:12:58 jegui groupadd[12627]: group added to /etc/group: name=ntp, GID=38
+Nov 29 13:12:58 jegui groupadd[12627]: group added to /etc/gshadow: name=ntp
+Nov 29 13:12:58 jegui groupadd[12627]: new group: name=ntp, GID=38
+Nov 29 13:12:58 jegui useradd[12631]: new user: name=ntp, UID=38, GID=38, home=/etc/ntp, shell=/sbin/nologin
+Nov 29 13:13:15 jegui groupadd[12689]: group added to /etc/group: name=slocate, GID=21
+Nov 29 13:13:15 jegui groupadd[12689]: group added to /etc/gshadow: name=slocate
+Nov 29 13:13:15 jegui groupadd[12689]: new group: name=slocate, GID=21
+Nov 29 13:14:05 jegui passwd: pam_unix(passwd:chauthtok): password changed for root
+Aug 19 09:28:42 jegui polkitd[2550]: Loading rules from directory /etc/polkit-1/rules.d
+Aug 19 09:28:42 jegui polkitd[2550]: Loading rules from directory /usr/share/polkit-1/rules.d
+Aug 19 09:28:42 jegui polkitd[2550]: Finished loading, compiling and executing 2 rules
+Aug 19 09:28:42 jegui polkitd[2550]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Aug 19 09:29:15 jegui sshd[3060]: Server listening on 0.0.0.0 port 22.
+Aug 19 09:29:15 jegui sshd[3060]: Server listening on :: port 22.
+Aug 19 09:29:17 jegui useradd[3351]: new group: name=devops, GID=1001
+Aug 19 09:29:17 jegui useradd[3351]: new user: name=devops, UID=1001, GID=1001, home=/home/devops, shell=/bin/bash
+Aug 19 09:29:26 jegui sshd[3363]: Accepted publickey for root from 172.25.250.250 port 49234 ssh2: RSA SHA256:1UGybTe52L2jzEJa1HLVKn9QUCKrTv3ZzxnMJol1Fro
+Aug 19 09:29:26 jegui sshd[3363]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 19 09:29:26 jegui sshd[3363]: Received disconnect from 172.25.250.250 port 49234:11: disconnected by user
+Aug 19 09:29:26 jegui sshd[3363]: Disconnected from 172.25.250.250 port 49234
+Aug 19 09:29:26 jegui sshd[3363]: pam_unix(sshd:session): session closed for user root
+Aug 19 09:29:26 jegui sshd[3373]: Accepted publickey for root from 172.25.250.250 port 49236 ssh2: RSA SHA256:1UGybTe52L2jzEJa1HLVKn9QUCKrTv3ZzxnMJol1Fro
+Aug 19 09:29:27 jegui sshd[3373]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 19 09:29:27 jegui sshd[3373]: Received disconnect from 172.25.250.250 port 49236:11: disconnected by user
+Aug 19 09:29:27 jegui sshd[3373]: Disconnected from 172.25.250.250 port 49236
+Aug 19 09:29:27 jegui sshd[3373]: pam_unix(sshd:session): session closed for user root
+Aug 19 09:29:27 jegui sshd[3385]: Accepted publickey for root from 172.25.250.250 port 49238 ssh2: RSA SHA256:1UGybTe52L2jzEJa1HLVKn9QUCKrTv3ZzxnMJol1Fro
+Aug 19 09:29:27 jegui sshd[3385]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 19 09:29:27 jegui sshd[3385]: Received disconnect from 172.25.250.250 port 49238:11: disconnected by user
+Aug 19 09:29:27 jegui sshd[3385]: Disconnected from 172.25.250.250 port 49238
+Aug 19 09:29:27 jegui sshd[3385]: pam_unix(sshd:session): session closed for user root
+Aug 19 09:29:27 jegui sshd[3400]: Accepted publickey for root from 172.25.250.250 port 49240 ssh2: RSA SHA256:1UGybTe52L2jzEJa1HLVKn9QUCKrTv3ZzxnMJol1Fro
+Aug 19 09:29:27 jegui sshd[3400]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 19 09:29:27 jegui sshd[3400]: Received disconnect from 172.25.250.250 port 49240:11: disconnected by user
+Aug 19 09:29:27 jegui sshd[3400]: Disconnected from 172.25.250.250 port 49240
+Aug 19 09:29:27 jegui sshd[3400]: pam_unix(sshd:session): session closed for user root
+Aug 19 09:29:28 jegui sshd[3416]: Accepted publickey for root from 172.25.250.250 port 49242 ssh2: RSA SHA256:1UGybTe52L2jzEJa1HLVKn9QUCKrTv3ZzxnMJol1Fro
+Aug 19 09:29:28 jegui sshd[3416]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 19 09:29:29 jegui sshd[3416]: Received disconnect from 172.25.250.250 port 49242:11: disconnected by user
+Aug 19 09:29:29 jegui sshd[3416]: Disconnected from 172.25.250.250 port 49242
+Aug 19 09:29:29 jegui sshd[3416]: pam_unix(sshd:session): session closed for user root
+Aug 19 09:29:29 jegui sshd[3876]: Accepted publickey for root from 172.25.250.250 port 49244 ssh2: RSA SHA256:1UGybTe52L2jzEJa1HLVKn9QUCKrTv3ZzxnMJol1Fro
+Aug 19 09:29:29 jegui sshd[3876]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 14:20:19 servera polkitd[2556]: Loading rules from directory /etc/polkit-1/rules.d
+Aug 20 14:20:19 servera polkitd[2556]: Loading rules from directory /usr/share/polkit-1/rules.d
+Aug 20 14:20:19 servera polkitd[2556]: Finished loading, compiling and executing 2 rules
+Aug 20 14:20:19 servera polkitd[2556]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Aug 20 14:20:25 servera sshd[3085]: Server listening on 0.0.0.0 port 22.
+Aug 20 14:20:25 servera sshd[3085]: Server listening on :: port 22.
+Aug 20 14:20:30 servera sshd[3213]: Accepted publickey for student from 172.25.250.250 port 53172 ssh2: RSA SHA256:1UGybTe52L2jzEJa1HLVKn9QUCKrTv3ZzxnMJol1Fro
+Aug 20 14:20:30 servera sshd[3213]: pam_unix(sshd:session): session opened for user student by (uid=0)
+Aug 20 14:20:34 servera sshd[3216]: Received disconnect from 172.25.250.250 port 53172:11: disconnected by user
+Aug 20 14:20:34 servera sshd[3216]: Disconnected from 172.25.250.250 port 53172
+Aug 20 14:20:34 servera sshd[3213]: pam_unix(sshd:session): session closed for user student
+Aug 20 14:20:38 servera sshd[3259]: Accepted publickey for devops from 172.25.250.254 port 43922 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 20 14:20:38 servera sshd[3259]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Aug 20 14:20:39 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tcwxhvfgadnfuikccvxjtwchppdgaluo; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566328838.67-114774472895727/AnsiballZ_setup.py
+Aug 20 14:20:39 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:20:40 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:20:41 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ndqhwdszkjxjutlwrkoitpxyjgabbwwl; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566328840.51-9946000420644/AnsiballZ_yum.py
+Aug 20 14:20:41 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:21:04 servera groupadd[3501]: group added to /etc/group: name=mysql, GID=27
+Aug 20 14:21:04 servera groupadd[3501]: group added to /etc/gshadow: name=mysql
+Aug 20 14:21:04 servera groupadd[3501]: new group: name=mysql, GID=27
+Aug 20 14:21:04 servera useradd[3505]: new user: name=mysql, UID=27, GID=27, home=/var/lib/mysql, shell=/sbin/nologin
+Aug 20 14:21:32 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:21:32 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nmmoxnalgvtfimgyvtelfjmypjuetkfb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566328892.31-141282807645384/AnsiballZ_systemd.py
+Aug 20 14:21:32 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:21:33 servera polkitd[2556]: Registered Authentication Agent for unix-process:3624:8070 (system bus name :1.28 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8)
+Aug 20 14:21:33 servera polkitd[2556]: Unregistered Authentication Agent for unix-process:3624:8070 (system bus name :1.28, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8) (disconnected from bus)
+Aug 20 14:21:33 servera polkitd[2556]: Registered Authentication Agent for unix-process:3644:8090 (system bus name :1.29 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8)
+Aug 20 14:21:38 servera polkitd[2556]: Unregistered Authentication Agent for unix-process:3644:8090 (system bus name :1.29, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8) (disconnected from bus)
+Aug 20 14:21:38 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:21:39 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-icsguofipvswfxzwjhvoevnnobwwlzvs; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566328899.13-258850091361514/AnsiballZ_group.py
+Aug 20 14:21:39 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:21:39 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:21:39 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nvaibzqdcooeabftpfrneukzygonlmkp; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566328899.76-10146255072391/AnsiballZ_group.py
+Aug 20 14:21:39 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:21:40 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:22:40 servera sshd[3262]: Received disconnect from 172.25.250.254 port 43922:11: disconnected by user
+Aug 20 14:22:40 servera sshd[3262]: Disconnected from 172.25.250.254 port 43922
+Aug 20 14:22:40 servera sshd[3259]: pam_unix(sshd:session): session closed for user devops
+Aug 20 14:45:31 servera sshd[4179]: Accepted publickey for devops from 172.25.250.254 port 43924 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 20 14:45:31 servera sshd[4179]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Aug 20 14:45:32 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ivogwxqoutulwbpqzzrxllkksvicoqod; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330331.16-207298690645237/AnsiballZ_setup.py
+Aug 20 14:45:32 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:45:32 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:45:33 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-huwtrzdgbxyclsplgrqzsglmodbcuzve; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330333.11-34058815536550/AnsiballZ_yum.py
+Aug 20 14:45:33 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:45:34 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:45:34 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uxcvuscpjzujkqvsuelfnzbupxrwjqoo; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330334.47-58133936538297/AnsiballZ_systemd.py
+Aug 20 14:45:34 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:45:35 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:45:35 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-djqdoiydqnnlnnebzemqexrauwkdxchc; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330335.26-204981756812089/AnsiballZ_group.py
+Aug 20 14:45:35 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:45:35 servera groupadd[4567]: group added to /etc/group: name=dbadmin, GID=1002
+Aug 20 14:45:35 servera groupadd[4567]: group added to /etc/gshadow: name=dbadmin
+Aug 20 14:45:35 servera groupadd[4567]: new group: name=dbadmin, GID=1002
+Aug 20 14:45:35 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:45:36 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-etxzolaxukhvbsgdjbhlrxtbydmmkepp; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330335.98-126051479541300/AnsiballZ_group.py
+Aug 20 14:45:36 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:45:36 servera groupadd[4665]: group added to /etc/group: name=dbuser, GID=1003
+Aug 20 14:45:36 servera groupadd[4665]: group added to /etc/gshadow: name=dbuser
+Aug 20 14:45:36 servera groupadd[4665]: new group: name=dbuser, GID=1003
+Aug 20 14:45:36 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:45:37 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wnhlbecbmpvonoklihksybmfuplivcpj; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330336.62-176525628951104/AnsiballZ_user.py
+Aug 20 14:45:37 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:45:37 servera useradd[4763]: new group: name=jdavis, GID=1004
+Aug 20 14:45:37 servera useradd[4763]: new user: name=jdavis, UID=1002, GID=1004, home=/home/jdavis, shell=/bin/bash
+Aug 20 14:45:37 servera useradd[4763]: add 'jdavis' to group 'dbadmin'
+Aug 20 14:45:37 servera useradd[4763]: add 'jdavis' to shadow group 'dbadmin'
+Aug 20 14:45:37 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:45:37 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bthwqomejvirxylurxwgrumehxrfwdem; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330337.51-42067176703057/AnsiballZ_user.py
+Aug 20 14:45:37 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:45:37 servera useradd[4862]: new group: name=jsmith, GID=1005
+Aug 20 14:45:37 servera useradd[4862]: new user: name=jsmith, UID=1003, GID=1005, home=/home/jsmith, shell=/bin/bash
+Aug 20 14:45:37 servera useradd[4862]: add 'jsmith' to group 'dbuser'
+Aug 20 14:45:37 servera useradd[4862]: add 'jsmith' to shadow group 'dbuser'
+Aug 20 14:45:38 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:46:38 servera sshd[4182]: Received disconnect from 172.25.250.254 port 43924:11: disconnected by user
+Aug 20 14:46:38 servera sshd[4182]: Disconnected from 172.25.250.254 port 43924
+Aug 20 14:46:38 servera sshd[4179]: pam_unix(sshd:session): session closed for user devops
+Aug 20 14:49:51 servera sshd[4884]: Accepted publickey for devops from 172.25.250.254 port 43944 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 20 14:49:51 servera sshd[4884]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Aug 20 14:49:52 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mflqjatduvacojsllwixivelqdsjdddq; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330591.35-183635234430805/AnsiballZ_setup.py
+Aug 20 14:49:52 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:49:52 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:49:53 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gawotjjibtormaqwfqnwtakksuzybzfw; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330592.95-211461585069987/AnsiballZ_yum.py
+Aug 20 14:49:53 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:49:53 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:50:23 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mzsviqoaqexnjhaewgfhflgokxdlyyoa; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330622.59-45091676618937/AnsiballZ_setup.py
+Aug 20 14:50:23 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:50:23 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:50:24 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ipsogyzfapoqgndvealmidvreosvutfq; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330623.82-247211428884008/AnsiballZ_yum.py
+Aug 20 14:50:24 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:50:24 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:50:25 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rnmzpzywlelzpqijdvxmibjpxdnpyosn; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330624.98-126025558916718/AnsiballZ_yum.py
+Aug 20 14:50:25 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:50:25 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:51:25 servera sshd[4887]: Received disconnect from 172.25.250.254 port 43944:11: disconnected by user
+Aug 20 14:51:25 servera sshd[4887]: Disconnected from 172.25.250.254 port 43944
+Aug 20 14:51:25 servera sshd[4884]: pam_unix(sshd:session): session closed for user devops
+Aug 20 14:54:49 servera sshd[5406]: Accepted publickey for devops from 172.25.250.254 port 43946 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 20 14:54:49 servera sshd[5406]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Aug 20 14:54:50 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lrgpvijuhfydckpsxocihfpfyqocipkz; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330889.56-230157480005571/AnsiballZ_setup.py
+Aug 20 14:54:50 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:54:50 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:54:51 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-adgcawhqwnonxavaufnzqmkjhkhhshta; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330891.13-152324574536981/AnsiballZ_yum.py
+Aug 20 14:54:51 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:54:52 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:54:52 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wegviuclssjvpugvybcwwiucaghjdmza; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330892.22-206135211245493/AnsiballZ_yum.py
+Aug 20 14:54:52 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:54:52 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:54:53 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wtmxqxwblazqguakleiwucbcnhowhlkp; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330892.96-99903470566011/AnsiballZ_systemd.py
+Aug 20 14:54:53 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:54:53 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:55:19 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-udolcnxmtvbctgzxjsfhaoaykjslciuz; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330918.73-87763959832725/AnsiballZ_setup.py
+Aug 20 14:55:19 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:55:19 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:55:20 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mrxynqtbpcxvfegcvcwjyxczcneytibu; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330919.96-250922281359793/AnsiballZ_yum.py
+Aug 20 14:55:20 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:55:24 servera groupadd[6012]: group added to /etc/group: name=apache, GID=48
+Aug 20 14:55:24 servera groupadd[6012]: group added to /etc/gshadow: name=apache
+Aug 20 14:55:24 servera groupadd[6012]: new group: name=apache, GID=48
+Aug 20 14:55:24 servera useradd[6016]: new user: name=apache, UID=48, GID=48, home=/usr/share/httpd, shell=/sbin/nologin
+Aug 20 14:55:27 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:55:27 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-spugcxnuzlaczbgdsulqllsjclczxuov; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566330927.36-141509457287506/AnsiballZ_systemd.py
+Aug 20 14:55:27 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:55:27 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:56:28 servera sshd[5409]: Received disconnect from 172.25.250.254 port 43946:11: disconnected by user
+Aug 20 14:56:28 servera sshd[5409]: Disconnected from 172.25.250.254 port 43946
+Aug 20 14:56:28 servera sshd[5406]: pam_unix(sshd:session): session closed for user devops
+Aug 20 14:57:22 servera sshd[6149]: Accepted publickey for devops from 172.25.250.254 port 43948 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 20 14:57:22 servera sshd[6149]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Aug 20 14:57:23 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mvcrfkbtizhuyfqesttxpnyofdbunqdr; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331042.13-126092508332748/AnsiballZ_setup.py
+Aug 20 14:57:23 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:57:23 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:57:24 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-eapmvzqieudigbdkwpzfyflsnaygjnkv; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331043.79-276041274994463/AnsiballZ_command.py
+Aug 20 14:57:24 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:57:24 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:57:25 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vfucriwjkeyuaobmqitpsxwpebszqiux; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331044.55-26872526778306/AnsiballZ_yum.py
+Aug 20 14:57:25 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:57:25 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:57:26 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wqtcwejhpmqppdugumkpaiovqsphecox; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331045.68-279163693201108/AnsiballZ_systemd.py
+Aug 20 14:57:26 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:57:26 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:58:00 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tscdntibtdivrwmcesmneiemwvixhzpj; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331080.14-223336600536197/AnsiballZ_setup.py
+Aug 20 14:58:00 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:58:01 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:58:01 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dcxswgnzhznzxryepjoyfmfqzkgixytv; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331081.39-194035622983605/AnsiballZ_command.py
+Aug 20 14:58:01 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:58:01 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:58:02 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sobuxttlaoebglacnrxhytlyzyvqnqif; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331082.2-237201841131626/AnsiballZ_yum.py
+Aug 20 14:58:02 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:58:03 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:58:03 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wxssflbjlfotaszyuzorixdetrxdbmrg; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331083.24-259489225041833/AnsiballZ_systemd.py
+Aug 20 14:58:03 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:58:03 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:59:00 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xvycrofcoqoiwtfzuefaajumqlwaotwb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331139.33-63666558561571/AnsiballZ_setup.py
+Aug 20 14:59:00 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:59:00 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:59:00 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nkpwxfndnxaylcutzlzgrdlolfbvcbxs; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331140.54-2986385409032/AnsiballZ_command.py
+Aug 20 14:59:00 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:59:01 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:59:01 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-fvwxqiyrppvwngtgvnxgabfyzjawssec; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331141.3-102537681677971/AnsiballZ_yum.py
+Aug 20 14:59:01 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:59:02 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:59:02 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-dhqamcmyvowdrawlrnsifctysvjaansd; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331142.35-218437592278833/AnsiballZ_yum.py
+Aug 20 14:59:02 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:59:02 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:59:03 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wibrueklaodnlkxavonimobttdjtgmam; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566331143.13-125858346648994/AnsiballZ_systemd.py
+Aug 20 14:59:03 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 20 14:59:03 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 20 14:59:25 servera sshd[7434]: Bad protocol version identification 'brain' from 172.25.250.254 port 43950
+Aug 20 14:59:25 servera sshd[7435]: Accepted publickey for root from 172.25.250.254 port 43952 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 20 14:59:25 servera sshd[7435]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 14:59:33 servera sshd[7435]: Received disconnect from 172.25.250.254 port 43952:11: disconnected by user
+Aug 20 14:59:33 servera sshd[7435]: Disconnected from 172.25.250.254 port 43952
+Aug 20 14:59:33 servera sshd[7435]: pam_unix(sshd:session): session closed for user root
+Aug 20 14:59:33 servera sshd[7479]: Accepted publickey for root from 172.25.250.254 port 43954 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 20 14:59:33 servera sshd[7479]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 20 14:59:35 servera sshd[7479]: Received disconnect from 172.25.250.254 port 43954:11: disconnected by user
+Aug 20 14:59:35 servera sshd[7479]: Disconnected from 172.25.250.254 port 43954
+Aug 20 14:59:35 servera sshd[7479]: pam_unix(sshd:session): session closed for user root
+Aug 20 15:00:03 servera sshd[6152]: Received disconnect from 172.25.250.254 port 43948:11: disconnected by user
+Aug 20 15:00:03 servera sshd[6152]: Disconnected from 172.25.250.254 port 43948
+Aug 20 15:00:03 servera sshd[6149]: pam_unix(sshd:session): session closed for user devops
+Aug 21 08:19:46 servera sshd[5695]: Accepted publickey for devops from 172.25.250.254 port 44066 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 21 08:19:47 servera sshd[5695]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Aug 21 08:19:47 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-zryfksepozudidlviuephkjzlrpxdvrj; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566393586.72-124532062497988/AnsiballZ_setup.py
+Aug 21 08:19:47 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 21 08:19:48 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 21 08:19:49 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vmcnxtgpzfrxaigvznuofvddyfhczqyt; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566393588.5-250454082637012/AnsiballZ_yum.py
+Aug 21 08:19:49 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 21 08:19:52 servera useradd[5907]: failed adding user 'mysql', exit code: 9
+Aug 21 08:20:13 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 21 08:20:14 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-jbfwgecctrmczhvzapgvuwyrqyhmmsvb; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566393613.99-186340974119095/AnsiballZ_systemd.py
+Aug 21 08:20:14 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 21 08:20:14 servera polkitd[2556]: Registered Authentication Agent for unix-process:6029:6480246 (system bus name :1.337 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8)
+Aug 21 08:20:15 servera polkitd[2556]: Unregistered Authentication Agent for unix-process:6029:6480246 (system bus name :1.337, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8) (disconnected from bus)
+Aug 21 08:20:15 servera polkitd[2556]: Registered Authentication Agent for unix-process:6049:6480267 (system bus name :1.338 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8)
+Aug 21 08:20:17 servera polkitd[2556]: Unregistered Authentication Agent for unix-process:6049:6480267 (system bus name :1.338, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale es_ES.UTF-8) (disconnected from bus)
+Aug 21 08:20:17 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 21 08:20:17 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wktrkqqnzleijuaaxbfmzcshprcrkloy; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566393617.5-208567419682119/AnsiballZ_group.py
+Aug 21 08:20:18 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 21 08:20:18 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 21 08:20:18 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vskkgkcefclkmssrgapufvzociddrmsv; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566393618.25-72644747908019/AnsiballZ_group.py
+Aug 21 08:20:18 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 21 08:20:18 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 21 08:20:19 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-mjxqoyjejhnuleyfzrotinmaepmyytlx; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566393618.86-136721435834919/AnsiballZ_user.py
+Aug 21 08:20:19 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 21 08:20:19 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 21 08:20:20 servera sudo:  devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lyeojxemxzhunvcrsectexvlrgzkasmz; /usr/bin/python /home/devops/.ansible/tmp/ansible-tmp-1566393619.81-17020622741542/AnsiballZ_user.py
+Aug 21 08:20:20 servera sudo: pam_unix(sudo:session): session opened for user root by devops(uid=0)
+Aug 21 08:20:20 servera sudo: pam_unix(sudo:session): session closed for user root
+Aug 21 08:21:20 servera sshd[5698]: Received disconnect from 172.25.250.254 port 44066:11: disconnected by user
+Aug 21 08:21:20 servera sshd[5698]: Disconnected from 172.25.250.254 port 44066
+Aug 21 08:21:20 servera sshd[5695]: pam_unix(sshd:session): session closed for user devops
+Aug 21 08:25:43 servera sshd[6676]: Accepted publickey for root from 172.25.250.254 port 44080 ssh2: RSA SHA256:M8ikhcEDm2tQ95Z0o7ZvufqEixCFCt+wowZLNzNlBT0
+Aug 21 08:25:43 servera sshd[6676]: pam_unix(sshd:session): session opened for user root by (uid=0)
