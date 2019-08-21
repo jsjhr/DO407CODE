@@ -1,0 +1,9 @@
+---
+- name: /etc/hosts is up to date
+  hosts: all 
+  gather_facts: yes
+  tasks:
+    - name: Deploy /etc/hosts
+      template:
+        src: templates/hosts.j2
+        dest: /etc/hosts
