@@ -1,0 +1,3 @@
+---
+# vars file for role1
+fullname: "{{ firstname }} {{ lastname }}"

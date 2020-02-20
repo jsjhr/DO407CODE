@@ -1,0 +1,5 @@
+---
+# tasks file for role1
+- name: Print fullname
+  debug:
+    var: fullname

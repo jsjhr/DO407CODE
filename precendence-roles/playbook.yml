@@ -1,0 +1,4 @@
+- name: Play for test precedence
+  hosts: all 
+  roles:
+    - role: role1
